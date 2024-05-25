@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'ClashDisplay-Variable';
+  src: url('../ClashDisplay-Variable.woff2') format('woff2'),
+    url('../ClashDisplay-Variable.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
