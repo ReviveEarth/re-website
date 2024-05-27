@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 
 const Index = () => {
@@ -8,6 +9,8 @@ const Index = () => {
         <Navbar />
       </div>
       <div>This is the Landing Page</div>
+
+      <Footer />
     </>
   );
 };

@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
 
         {/* MOBILE NAV */}
-        <div className="px-5 h-20 flex justify-between items-center bg-[#0B2012] lg:hidden">
+        <div className="relative px-5 h-20 flex z-50 justify-between items-center bg-[#0B2012] lg:hidden">
           <div className="">
             <NavLink to="/">
               <img
@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
 
           {/* toggle button */}
-          <div onClick={toggleNav} className="block lg:hidden z-50">
+          <div onClick={toggleNav} className="block lg:hidden z-10">
             {open ? (
               <AiOutlineClose size={25} color="white" />
             ) : (
