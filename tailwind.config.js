@@ -6,6 +6,12 @@ export default {
       fontFamily: {
         clashdisplay: ['ClashDisplay-Variable', 'Inter', 'sans-serif'],
       },
+      backgroundImage: {
+        HeroBG: "url('./assets/herobg.png')",
+        HeroMobileBG: "url('./assets/heromobilebg.png')",
+        GreenBG: "url('./assets/green.png')",
+        MobileGreenBG: "url('./assets/mgreen.png')",
+      },
     },
   },
   plugins: [],

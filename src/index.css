@@ -13,3 +13,11 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fwRvhm {
+  margin: 0 !important;
+}

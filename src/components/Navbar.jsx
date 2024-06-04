@@ -13,9 +13,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full  lg:py-5 ">
+      <nav className="w-full  lg:py-5 fixed lg:relative">
         {/* DESKTOP NAV */}
-        <div className="hidden lg:block w-[757px] h-[70px] border border-white mx-auto rounded-full p-[1px]">
+        <div className="hidden lg:block w-[757px] h-[70px] border border-[#b1b1b1] mx-auto rounded-full p-[1px]">
           <div className="px-[57px] py-[18px] w-full h-full rounded-[31px] flex items-center justify-between mx-auto bg-transparent text-white">
             <div className="flex gap-16">
               <NavLink

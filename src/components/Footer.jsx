@@ -15,11 +15,7 @@ const Footer = () => {
         <div className="grid xl:grid-cols-3 gap-12 mb-12">
           <div className="flex flex-col">
             <Link to="/">
-              <img
-                src={Logo}
-                alt="revive earth"
-                className="h-[84px] w-[262px]"
-              />
+              <img src={Logo} alt="revive earth" className="h-[84px]" />
             </Link>
 
             <p className="font-light pt-8 md:w-[600px] xl:w-[378px] text-white">
