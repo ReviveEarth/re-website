@@ -11,6 +11,7 @@ export default {
         HeroMobileBG: "url('./assets/heromobilebg.png')",
         GreenBG: "url('./assets/green.png')",
         MobileGreenBG: "url('./assets/mgreen.png')",
+        ConversionKit: "url('./assets/green_white.png')",
       },
     },
   },
