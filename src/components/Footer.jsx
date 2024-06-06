@@ -145,7 +145,7 @@ const Footer = () => {
         <hr />
 
         <p className="text-[13px] text-[#E3E3E3] font-light text-center pt-6">
-          All rights reserved by © Revive Earth 2023.
+          All rights reserved by © Revive Earth {new Date().getFullYear()}.
         </p>
       </footer>
     </>
