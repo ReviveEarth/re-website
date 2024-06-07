@@ -20,13 +20,21 @@ const Navbar = () => {
             <div className="flex gap-16">
               <NavLink
                 to="/"
-                className={({ isActive }) => (isActive ? 'font-bold' : '')}
+                className={({ isActive }) =>
+                  `hover:font-bold transition-all duration-300 ${
+                    isActive ? 'font-bold' : ''
+                  }`
+                }
               >
                 Home
               </NavLink>
               <NavLink
                 to="/technology"
-                className={({ isActive }) => (isActive ? 'font-bold' : '')}
+                className={({ isActive }) =>
+                  `hover:font-bold transition-all duration-300 ${
+                    isActive ? 'font-bold' : ''
+                  }`
+                }
               >
                 Technology
               </NavLink>
@@ -43,13 +51,21 @@ const Navbar = () => {
             <div className="flex gap-16">
               <NavLink
                 to="/news"
-                className={({ isActive }) => (isActive ? 'font-bold' : '')}
+                className={({ isActive }) =>
+                  `hover:font-bold transition-all duration-300 ${
+                    isActive ? 'font-bold' : ''
+                  }`
+                }
               >
                 News
               </NavLink>
               <NavLink
                 to="/contact"
-                className={({ isActive }) => (isActive ? 'font-bold' : '')}
+                className={({ isActive }) =>
+                  `hover:font-bold transition-all duration-300 ${
+                    isActive ? 'font-bold' : ''
+                  }`
+                }
               >
                 Contact Us
               </NavLink>

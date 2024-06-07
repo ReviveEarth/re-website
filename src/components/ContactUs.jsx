@@ -6,7 +6,7 @@ const ContactUs = () => {
     <>
       <section className="bg-[#F3F8E9] py-16 md:py-28 px-5 xl:px-32 flex flex-col-reverse xl:flex-row gap-12">
         <div className="bg-white xl:w-[646px] rounded-[10px] py-[34px] px-4 md:px-[50px] flex flex-col">
-          <h1 className="text-[#0B0808] text-4xl md:text-6xl uppercase font-clashdisplay">
+          <h1 className="text-[#0B0808] text-4xl md:text-6xl uppercase font-clashdisplayVariable">
             CONTACT US
           </h1>
           <p className="text-[#0F0B0B] text-sm font-normal py-4">

@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        clashdisplay: ['ClashDisplay-Variable', 'Inter', 'sans-serif'],
+        clashdisplayVariable: ['ClashDisplay-Variable', 'Inter', 'sans-serif'],
+        clashdisplay: ['ClashDisplay-Semibold', 'Inter', 'sans-serif'],
       },
       backgroundImage: {
         HeroBG: "url('./assets/herobg.png')",

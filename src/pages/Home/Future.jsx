@@ -9,10 +9,10 @@ const Future = () => {
       <section className="py-16 md:py-28 px-5 xl:px-40">
         <div className="grid md:grid-cols-2 gap-10">
           <div className="flex flex-col lg:w-[512px]">
-            <h3 className="text-2xl text-[#83BC25] font-clashdisplay">
+            <h3 className="text-2xl text-[#83BC25] font-clashdisplayVariable">
               Innovation on Wheels
             </h3>
-            <h2 className="pt-3 text-[#29292B] uppercase text-[43px] md:text-[55px] lg:text-[64px] lg:w-[80%] leading-none font-clashdisplay">
+            <h2 className="pt-3 text-[#29292B] uppercase text-[43px] md:text-[55px] lg:text-[64px] lg:w-[80%] leading-none font-clashdisplayVariable">
               building the future
             </h2>
             <p className="pt-5 text-[#0F0B0B] lg:w-[437px]">

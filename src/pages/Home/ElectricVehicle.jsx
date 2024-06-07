@@ -11,13 +11,13 @@ const ElectricVehicle = () => {
       <section className="bg-MobileGreenBG h-[1300px] md:bg-GreenBG bg-cover bg-no-repeat md:h-[864px]">
         <div className="px-5 py-16 md:py-32 xl:px-16 grid md:grid-cols-2 place-items-center gap-28 md:gap-10">
           <div className="flex flex-col">
-            <h2 className="md:hidden text-[64px] leading-none text-[#EDEDED] pb-8 font-clashdisplay font-medium uppercase">
+            <h2 className="md:hidden text-[64px] leading-none text-[#EDEDED] pb-8 font-clashdisplayVariable font-medium uppercase">
               African made
             </h2>
             <img src={Africa} alt="" />
           </div>
           <div className="bg-[#1C290F] xl:h-[374px] px-5 py-10 lg:px-10 flex flex-col text-[#E7E7E7] font-normal">
-            <h3 className="text-2xl lg:text-[32px] leading-none xl:w-[518px] font-medium font-clashdisplay mb-6">
+            <h3 className="text-2xl lg:text-[32px] leading-none xl:w-[518px] font-medium font-clashdisplayVariable mb-6">
               Electric Vehicles made for Africa, in Africa, by Africans.
             </h3>
             <p>
@@ -36,7 +36,7 @@ const ElectricVehicle = () => {
 
       <section className="py-16 md:py-28 px-5 xl:px-32 grid lg:grid-cols-2 gap-14 xl:gap-28">
         <div>
-          <div className="lg:hidden flex flex-col font-clashdisplay font-medium mb-10">
+          <div className="lg:hidden flex flex-col font-clashdisplayVariable font-medium mb-10">
             <p className="text-[#83BC25] text-2xl pb-2">
               Why Consider Electric
             </p>
@@ -49,7 +49,7 @@ const ElectricVehicle = () => {
         </div>
 
         <div className="flex flex-col">
-          <div className="hidden  lg:flex flex-col font-clashdisplay font-medium">
+          <div className="hidden  lg:flex flex-col font-clashdisplayVariable font-medium">
             <p className="text-[#83BC25] text-2xl pb-2">
               Why Consider Electric
             </p>
@@ -60,7 +60,7 @@ const ElectricVehicle = () => {
             <div className="flex flex-col">
               <div className="flex gap-4 pb-3 items-center">
                 <img src={Cleaner} alt="bolt" className="w-[40px]" />
-                <h3 className="text-2xl font-clashdisplay font-medium text-[#050404]">
+                <h3 className="text-2xl font-clashdisplayVariable font-medium text-[#050404]">
                   Cleaner
                 </h3>
               </div>
@@ -79,7 +79,7 @@ const ElectricVehicle = () => {
             <div className="flex flex-col">
               <div className="flex gap-4 pb-3 items-center">
                 <img src={Cheaper} alt="bolt" className="w-[40px]" />
-                <h3 className="text-2xl font-clashdisplay font-medium text-[#050404]">
+                <h3 className="text-2xl font-clashdisplayVariable font-medium text-[#050404]">
                   Cheaper
                 </h3>
               </div>
@@ -95,7 +95,7 @@ const ElectricVehicle = () => {
             <div className="flex flex-col">
               <div className="flex gap-4 pb-3 items-center">
                 <img src={Convinient} alt="bolt" className="w-[40px]" />
-                <h3 className="text-2xl font-clashdisplay font-medium text-[#050404]">
+                <h3 className="text-2xl font-clashdisplayVariable font-medium text-[#050404]">
                   Convenient
                 </h3>
               </div>

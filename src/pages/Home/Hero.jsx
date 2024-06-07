@@ -14,7 +14,7 @@ const Hero = () => {
           <Navbar />
         </div>
         <div className="text-white flex flex-col items-center text-center pt-12 md:pt-80 lg:pt-56 ">
-          <h1 className="text-[50px] leading-none md:text-6xl lg:text-8xl md:w-[80%] lg:w-[1005px]  font-clashdisplay font-medium">
+          <h1 className="text-[50px] leading-none md:text-6xl lg:text-8xl md:w-[80%] lg:w-[1005px]  font-clashdisplayVariable font-medium">
             The Future is Here, Revive Earth!
           </h1>
           <p className="pt-4 font-light text-lg text-center lg:w-[902px]">

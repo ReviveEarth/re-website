@@ -12,13 +12,13 @@ const GoElectric = () => {
       <section className="py-20  xl:px-40">
         <div className="flex flex-col">
           <div className="hidden md:block px-5">
-            <p className="pb-3 font-medium text-xl font-clashdisplay">
+            <p className="pb-3 font-medium text-xl font-clashdisplayVariable">
               Battery Swapping System
             </p>
             <hr className="mb-6" />
           </div>
 
-          <div className="px-5 md:hidden flex flex-col font-clashdisplay font-medium mb-12">
+          <div className="px-5 md:hidden flex flex-col font-clashdisplayVariable font-medium mb-12">
             <p className="text-[#83BC25] text-xl pb-2">
               Why Choose Electric Mobility
             </p>
@@ -34,7 +34,7 @@ const GoElectric = () => {
           </section>
         </div>
 
-        <div className="px-5 hidden pt-20 md:flex flex-col font-clashdisplay font-medium">
+        <div className="px-5 hidden pt-20 md:flex flex-col font-clashdisplayVariable font-medium">
           <p className="text-[#83BC25] text-2xl pb-2">
             Why Choose Electric Mobility
           </p>
@@ -44,7 +44,7 @@ const GoElectric = () => {
         <div className="px-5 mt-10 grid lg:grid-cols-3 gap-16 lg:gap-20 font-light text-[#0F0B0B]">
           <div className="flex flex-col">
             <img src={Bolt} alt="bolt" className="w-[40px]" />
-            <h3 className="text-2xl font-clashdisplay font-medium py-4 text-[#050404]">
+            <h3 className="text-2xl font-clashdisplayVariable font-medium py-4 text-[#050404]">
               Indigenous Technology
             </h3>
             <p>
@@ -56,7 +56,7 @@ const GoElectric = () => {
 
           <div className="flex flex-col">
             <img src={Bolt} alt="bolt" className="w-[40px]" />
-            <h3 className="text-2xl font-clashdisplay font-medium py-4 text-[#050404]">
+            <h3 className="text-2xl font-clashdisplayVariable font-medium py-4 text-[#050404]">
               Smart Technology
             </h3>
             <p>
@@ -70,7 +70,7 @@ const GoElectric = () => {
 
           <div className="flex flex-col">
             <img src={Bolt} alt="bolt" className="w-[40px]" />
-            <h3 className="text-2xl font-clashdisplay font-medium py-4 text-[#050404]">
+            <h3 className="text-2xl font-clashdisplayVariable font-medium py-4 text-[#050404]">
               Robustness and efficiency
             </h3>
             <p>

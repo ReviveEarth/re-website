@@ -75,7 +75,7 @@ const Index = () => {
         </div>
 
         <div className="pt-44 lg:pt-16 flex flex-col items-center text-center text-white">
-          <h1 className="text-6xl leading-none md:text-8xl font-semibold font-clashdisplay">
+          <h1 className="text-6xl leading-none md:text-8xl font-clashdisplay">
             Contact Us
           </h1>
           <p className="pt-8 lg:w-[903px] text-xl tracking-[0.4px]">
@@ -88,7 +88,7 @@ const Index = () => {
 
       <section className="bg-[#F3F8E9] px-5 xl:px-24 py-28">
         <div className="bg-white px-4 md:px-10 lg:px-14 xl:px-24 py-20 flex flex-col rounded-[10px]">
-          <h3 className="uppercase text-3xl md:text-4xl font-clashdisplay font-medium text-center">
+          <h3 className="uppercase text-3xl md:text-4xl font-clashdisplayVariable font-medium text-center">
             Choose Inquiry Category
           </h3>
 
@@ -99,7 +99,7 @@ const Index = () => {
                 <div
                   key={index}
                   onClick={() => handleSelectMailSubject(subject)}
-                  className={`flex flex-col h-[88px] w-[328px] font-clashdisplay text-xl  border-black cursor-pointer justify-center items-center ${
+                  className={`flex flex-col h-[88px] w-[328px] font-clashdisplayVariable text-xl  border-black cursor-pointer justify-center items-center ${
                     currentMailSubject === subject
                       ? 'bg-[#83BC25] text-white border-0'
                       : 'bg-[#F3F8E9]'

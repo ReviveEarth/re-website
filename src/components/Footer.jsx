@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaArrowRight } from 'react-icons/fa6';
+import { FaArrowRight, FaXTwitter } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
 import { AiFillInstagram } from 'react-icons/ai';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { BsFillTelephoneFill } from 'react-icons/bs';
-import { FaFacebook, FaTwitter, FaYoutube, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaYoutube, FaLinkedin } from 'react-icons/fa';
+
 import Logo from '../assets/x.png';
 
 const Footer = () => {
@@ -28,7 +29,7 @@ const Footer = () => {
 
           <div className="flex flex-row gap-x-24 xl:justify-evenly">
             <div className="flex flex-col">
-              <h4 className="font-semibold text-lg  font-clashdisplay pb-9">
+              <h4 className="font-semibold text-lg  font-clashdisplayVariable pb-9">
                 Link
               </h4>
               <ul className="">
@@ -36,15 +37,15 @@ const Footer = () => {
                   <Link to="/">Home</Link>
                 </li>
                 <li className="pb-7">
-                  <Link to="/why-us">Why Us</Link>
+                  <p>Why Us</p>
                 </li>
                 <li className="">
-                  <Link to="/features">Features</Link>
+                  <p>Features</p>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col">
-              <h4 className="font-semibold text-lg text-[#fffffb] font-clashdisplay pb-9">
+              <h4 className="font-semibold text-lg text-[#fffffb] font-clashdisplayVariable pb-9">
                 Company
               </h4>
               <ul className="">
@@ -52,7 +53,7 @@ const Footer = () => {
                   <Link to="/our-team">Our Team</Link>
                 </li>
                 <li className="pb-7">
-                  <Link to="/our-stories">Our Stories</Link>
+                  <p>Our Stories</p>
                 </li>
                 <li className="">
                   <Link to="/contact">Contact Us</Link>
@@ -63,7 +64,7 @@ const Footer = () => {
 
           <div className="flex flex-col ">
             <div className="xl:mt-12 xl:pl-12">
-              <h4 className="text-xl font-clashdisplay font-medium pb-10">
+              <h4 className="text-xl font-clashdisplayVariable font-medium pb-10">
                 Subscribe to our newsletter
               </h4>
               <div className="relative flex items-center">
@@ -78,7 +79,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex flex-col font-clashdisplay font-normal pt-14">
+            <div className="flex flex-col font-clashdisplayVariable font-normal pt-14">
               <p>Follow RE On Social Media Or just get in touch:</p>
               <div className="flex flex-row  space-x-6 pt-5 overflow-x-scroll">
                 <a
@@ -107,7 +108,7 @@ const Footer = () => {
                   target="_blank"
                   className="bg-white rounded-full p-1"
                 >
-                  <FaTwitter size={28} color="#83BC25" />
+                  <FaXTwitter size={28} color="#83BC25" />
                 </a>
                 <a
                   href="#"

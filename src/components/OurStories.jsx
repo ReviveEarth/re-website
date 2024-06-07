@@ -97,14 +97,14 @@ const Card = (story, index) => (
   <div className="py-6">
     <div key={index} className="flex flex-col">
       <img src={story.image} alt="Innov8" className="w-full rounded-md" />
-      <h5 className="text-lg font-clashdisplay font-medium pt-5">
+      <h5 className="text-lg font-clashdisplayVariable font-medium pt-5">
         {story.heading}
       </h5>
       <p className="font-light text-sm  py-4">{story.text}</p>
       <div>
         <Link
           to={story.link}
-          className="flex gap-2 items-center w-[100px] font-clashdisplay font-medium text-sm  hover:opacity-80 transition-all duration-300"
+          className="flex gap-2 items-center w-[100px] font-clashdisplayVariable font-medium text-sm  hover:opacity-80 transition-all duration-300"
         >
           Read More <GoArrowRight size={18} />
         </Link>

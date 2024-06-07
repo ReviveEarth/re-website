@@ -15,7 +15,7 @@ const RedefineMobility = () => {
       <section className="pt-16 lg:pr-5 xl:pr-32 grid lg:grid-cols-2 gap-10 md:gap-16">
         <div>
           <div className="lg:hidden flex flex-col  font-medium mb-10">
-            <h1 className="px-5 pt-20 pb-12 text-[#29292B] font-clashdisplay text-5xl md:text-8xl leading-none capitalize">
+            <h1 className="px-5 pt-20 pb-12 text-[#29292B] font-clashdisplayVariable text-5xl md:text-8xl leading-none capitalize">
               Re-Defining Mobility for Sustainability
             </h1>
           </div>
@@ -28,7 +28,7 @@ const RedefineMobility = () => {
         </div>
 
         <div className="flex flex-col">
-          <div className="hidden  lg:flex flex-col font-clashdisplay font-medium">
+          <div className="hidden  lg:flex flex-col font-clashdisplayVariable font-medium">
             <h1 className="text-[#050404] text-7xl mt-24 capitalize">
               Re-Defining Mobility for Sustainability
             </h1>
@@ -44,9 +44,9 @@ const RedefineMobility = () => {
 
           <div className="px-5 lg:px-0 items-center justify-center lg:items-start lg:justify-start pt-10 flex gap-6 md:gap-12">
             <div className="flex flex-col font-light">
-              <div className="flex font-clashdisplay gap-4">
+              <div className="flex font-clashdisplayVariable gap-4">
                 <img src={Fuel} alt="re" className="w-[30px] md:w-full" />
-                <p className="text-4xl md:text-[50px] xl:text-[64px] font-clashdisplay text-[#83BC25] font-medium">
+                <p className="text-4xl md:text-[50px] xl:text-[64px] font-clashdisplayVariable text-[#83BC25] font-medium">
                   74%
                 </p>
               </div>
@@ -56,13 +56,13 @@ const RedefineMobility = () => {
             <div className="w-[1px] h-full bg-[#D9EABB]"></div>
 
             <div className="flex flex-col font-light">
-              <div className="flex font-clashdisplay gap-4">
+              <div className="flex font-clashdisplayVariable gap-4">
                 <img
                   src={Maintenance}
                   alt="re"
                   className="w-[30px] md:w-[56px]"
                 />
-                <p className="text-4xl md:text-[50px] xl:text-[64px] font-clashdisplay text-[#83BC25] font-medium">
+                <p className="text-4xl md:text-[50px] xl:text-[64px] font-clashdisplayVariable text-[#83BC25] font-medium">
                   42%
                 </p>
               </div>
@@ -107,7 +107,7 @@ const RedefineMobility = () => {
 
             <img src={Line} alt="" className="hidden md:block" />
 
-            <p className="text-xl font-medium font-clashdisplay md:w-[342px]">
+            <p className="text-xl font-medium font-clashdisplayVariable md:w-[342px]">
               Engineering Award for Innovation and Sustainability
             </p>
           </div>

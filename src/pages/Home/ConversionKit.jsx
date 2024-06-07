@@ -10,14 +10,14 @@ const ConversionKit = () => {
       <section className="bg-[#101010] py-16 md:py-28 text-white px-5 xl:px-40">
         <div className="text-center flex flex-col items-center">
           <div className="md:hidden">
-            <p className="text-[#83BC25] text-xl font-clashdisplay">
+            <p className="text-[#83BC25] text-xl font-clashdisplayVariable">
               Revive Earth's Eco-Friendly Fleet
             </p>
-            <h1 className=" uppercase text-[64px] leading-none font-clashdisplay">
+            <h1 className=" uppercase text-[64px] leading-none font-clashdisplayVariable">
               Convers-ion KITS
             </h1>
           </div>
-          <h1 className="hidden md:block uppercase md:text-7xl lg:text-8xl font-clashdisplay">
+          <h1 className="hidden md:block uppercase md:text-7xl lg:text-8xl font-clashdisplayVariable">
             Conversion KITS
           </h1>
           <p className="text-[#F3F8E9] pt-2 text-lg lg:w-[843px] font-light">
@@ -29,7 +29,7 @@ const ConversionKit = () => {
         <div className="mt-16 md:mt-28 flex flex-col lg:flex-row gap-16 lg:gap-20 font-light">
           <div className="flex flex-col">
             <img src={Bolt} alt="bolt" className="w-[40px]" />
-            <h3 className="text-2xl font-clashdisplay font-medium py-4">
+            <h3 className="text-2xl font-clashdisplayVariable font-medium py-4">
               Cost-efficiency with faster time to market
             </h3>
             <p>
@@ -41,7 +41,7 @@ const ConversionKit = () => {
           </div>
           <div className="flex flex-col">
             <img src={Bolt} alt="bolt" className="w-[40px]" />
-            <h3 className="text-2xl font-clashdisplay font-medium py-4">
+            <h3 className="text-2xl font-clashdisplayVariable font-medium py-4">
               Made for the complexity of automotive
             </h3>
             <p>
@@ -53,7 +53,7 @@ const ConversionKit = () => {
           </div>
           <div className="flex flex-col">
             <img src={Bolt} alt="bolt" className="w-[40px]" />
-            <h3 className="text-2xl font-clashdisplay font-medium py-4">
+            <h3 className="text-2xl font-clashdisplayVariable font-medium py-4">
               24/7 customer support
             </h3>
             <p>
@@ -82,7 +82,7 @@ const ConversionKit = () => {
 
         <div className="mt-10 flex flex-col lg:flex-row gap-6 md:items-center md:text-2xl ">
           <div>
-            <h3 className=" font-normal font-clashdisplay">
+            <h3 className=" font-normal font-clashdisplayVariable">
               Some of the products we’ve converted:
             </h3>
           </div>

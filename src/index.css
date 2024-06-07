@@ -10,6 +10,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ClashDisplay-Semibold';
+  src: url('../ClashDisplay-Semibold.woff2') format('woff2'),
+    url('../ClashDisplay-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
