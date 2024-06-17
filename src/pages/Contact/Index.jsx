@@ -2,22 +2,28 @@ import React, { useState } from 'react';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import GE from '../../assets/ge.svg';
+import GEDark from '../../assets/ge_dark.svg';
 import BCK from '../../assets/bck.svg';
+import BCKDark from '../../assets/bck_dark.svg';
 import BV from '../../assets/bv.svg';
+import BVDark from '../../assets/bv_dark.svg';
 import BackToTop from '../../components/BackToTop';
 
 const mailSubjects = [
   {
     subject: 'General Enquiry',
-    icon: GE,
+    icon1: GE,
+    icon2: GEDark,
   },
   {
     subject: 'Buy Conversion Kit',
-    icon: BCK,
+    icon1: BCK,
+    icon2: BCKDark,
   },
   {
     subject: 'Buy Vehicles',
-    icon: BV,
+    icon1: BV,
+    icon2: BVDark,
   },
 ];
 
@@ -94,7 +100,7 @@ const Index = () => {
 
           <div className="flex flex-wrap gap-8  py-12">
             {mailSubjects?.map((item, index) => {
-              const { subject, icon } = item;
+              const { subject, icon1, icon2 } = item;
               return (
                 <div
                   key={index}
@@ -106,7 +112,12 @@ const Index = () => {
                   }`}
                 >
                   <div className="flex items-center gap-6">
-                    <img src={icon} alt="" />
+                    {currentMailSubject === subject ? (
+                      <img src={icon1} alt="" />
+                    ) : (
+                      <img src={icon2} alt="" />
+                    )}
+
                     {subject}
                   </div>
                 </div>

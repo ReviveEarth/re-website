@@ -20,10 +20,10 @@ const Footer = () => {
             </Link>
 
             <p className="font-light pt-8 md:w-[600px] xl:w-[378px] text-white">
-              We retrofit existing gasoline tricycles/minibuses with the
-              electric drivetrain. We also assemble/manufacture new, cheap and
-              functional electric vehicles, and operate a convenient battery
-              charge/swap network.
+              We retrofit existing petrol-powered vehicles with the electric
+              drivetrain. We also assemble/manufacture new, cheap and functional
+              electric vehicles, we also design and deploy convenient battery
+              charge/swap networks.
             </p>
           </div>
 
