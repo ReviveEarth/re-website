@@ -65,13 +65,13 @@ const ElectricVehicle = () => {
                 </h3>
               </div>
               <p>
-                Electric Vehicles drive on Electricity which can be gotten from
-                renewable and sustainable sources like Solar, Hydrogen Fuel,
-                biogas, wind, etc. If only 40% of automobiles can run on
+                Electric Vehicles drive on Electricity which can be obtained
+                from renewable and sustainable sources like Solar, Hydrogen
+                Fuel, biogas, wind, etc. If only 40% of automobiles can run on
                 electricity, it cuts down the global climate change menace by
                 11.6%. According to UNEP data, 14 million used vehicles were
-                shipped out of European Union, Japan, and the United States
-                between 2015 and 2018 alone, and 90% of the receiving regions
+                shipped out of Europe, Japan, and the United States between 2015
+                and 2018 alone, and 90% of the receiving regions such as Africa
                 have weak/no climate change regulation policies.
               </p>
             </div>
@@ -84,8 +84,8 @@ const ElectricVehicle = () => {
                 </h3>
               </div>
               <p>
-                The operational cost of a vehicle is cut by 66.7%, and the
-                maintenance cost by 90% if it is powered by electricity. This
+                The operational cost of a vehicle is cut by 74%, and the
+                maintenance cost by 42% if it is powered by electricity. This
                 presents a groundbreaking opportunity for commercial drivers to
                 make more money. Merchants as well can have a better value for
                 their investments in the transport business.
@@ -102,11 +102,10 @@ const ElectricVehicle = () => {
               <p>
                 Electric vehicles are easy, more convenient, and safer to drive.
                 They are far more efficient, and the drivetrain is more
-                effective to accommodate low losses, greater performance, and
+                effective in accommodating low losses, greater performance, and
                 more responsiveness. The future of driving lies with electric
-                vehicles because it makes the implementation of modern
-                technologies such as AI, and machine learning extremely easy on
-                the vehicle.
+                vehicles because they implement modern technologies such as AI,
+                and machine learning extremely easy on the vehicle.
               </p>
             </div>
           </div>

@@ -18,9 +18,9 @@ const Hero = () => {
             The Future is Here, Revive Earth!
           </h1>
           <p className="pt-4 font-light text-lg text-center lg:w-[902px]">
-            Transforming petrol-powered tricycles/minibuses into eco-friendly
-            electric vehicles. Plus, pioneering affordable and efficient EV
-            manufacturing.
+            Transforming petrol-powered vehicles into eco-friendly battery
+            electric vehicles. Plus, pioneering affordable and efficient
+            commercial EV manufacturing and battery charging/swapping for Africa
           </p>
 
           <div className="font-light text-lg flex flex-col-reverse  gap-y-6 text-center md:flex-row gap-x-5 pt-14">

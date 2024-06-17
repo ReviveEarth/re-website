@@ -18,8 +18,9 @@ const Future = () => {
             <p className="pt-5 text-[#0F0B0B] lg:w-[437px]">
               Transform Your Ride - Retrofit your existing petrol-powered
               vehicle into a sleek, eco-friendly electric machine with our
-              cutting-edge revive kits. Say goodbye to emissions and hello to a
-              cleaner, greener commute.
+              cutting-edge Revive Kits. Say goodbye to emissions, and high
+              operational and maintenance costs, and hello to a cleaner,
+              greener, and more affordable commute.
             </p>
             <Link
               to="/order-now"
