@@ -29,7 +29,7 @@ const GoElectric = () => {
 
           <section className="grid place-items-center h-full">
             <div className="rounded-lg xl:rounded-none overflow-hidden w-full lg:h-[655px]">
-              <YouTube videoId={'WXcUWpGbRU4'} opts={opts} />
+              <YouTube videoId={'8X_kjAXf1B0'} opts={opts} />
             </div>
           </section>
         </div>
