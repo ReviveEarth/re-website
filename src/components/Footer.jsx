@@ -67,13 +67,13 @@ const Footer = () => {
               <h4 className="text-xl font-clashdisplayVariable font-medium pb-10">
                 Subscribe to our newsletter
               </h4>
-              <div className="relative flex items-center">
+              <div className="relative">
                 <input
                   type="email"
                   placeholder="Enter your email"
                   className="bg-transparent w-[75%] xl:w-full border-b  focus:outline-none focus:border-b placeholder:text-[#e6e6e6] placeholder:text-sm placeholder:font-light py-2"
                 />
-                <button className="absolute right-[25%] xl:right-0">
+                <button className="absolute right-[25%] translate-y-[-50%] top-[50%] xl:right-0">
                   <FaArrowRight size={23} />
                 </button>
               </div>

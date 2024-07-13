@@ -29,3 +29,7 @@ html {
 .fwRvhm {
   margin: 0 !important;
 }
+
+:root:has(.no-doc-scroll) {
+  overflow: hidden;
+}

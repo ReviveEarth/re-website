@@ -13,7 +13,11 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full  lg:py-5 fixed lg:relative">
+      <nav
+        className={`${
+          open ? 'no-doc-scroll' : ''
+        } w-full lg:py-5 fixed lg:relative z-50`}
+      >
         {/* DESKTOP NAV */}
         <div className="hidden lg:block w-[757px] h-[70px] border border-[#b1b1b1] mx-auto rounded-full p-[1px]">
           <div className="px-[57px] py-[18px] w-full h-full rounded-[31px] flex items-center justify-between mx-auto bg-transparent text-white">
@@ -74,7 +78,7 @@ const Navbar = () => {
         </div>
 
         {/* MOBILE NAV */}
-        <div className="relative px-5 h-20 flex z-50 justify-between items-center bg-[#0B2012] lg:hidden">
+        <div className="relative px-5 h-20 flex justify-between items-center bg-[#0B2012] lg:hidden">
           <div className="">
             <NavLink to="/">
               <img
