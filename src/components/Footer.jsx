@@ -40,7 +40,7 @@ const Footer = () => {
                   <p>Why Us</p>
                 </li>
                 <li className="">
-                  <p>Features</p>
+                  <Link to="/become-an-agent">Become an Agent</Link>
                 </li>
               </ul>
             </div>

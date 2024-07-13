@@ -65,12 +65,12 @@ const ConversionKit = () => {
           </div>
         </div>
 
-        <div className="mt-14 md:mt-20 grid md:grid-cols-2  gap-3 md:gap-7 overflow-hidden">
-          <div className="w-full h-full">
-            <img src={Ckit} alt="" className="h-full w-full " />
+        <div className="mt-14 md:mt-20 flex flex-col md:flex-row  gap-3 md:gap-7 overflow-hidden">
+          <div className=" h-full lg:w-[65%]">
+            <img src={Ckit} alt="" className="h-full w-full object-cover" />
           </div>
 
-          <div className="flex flex-row md:flex-col gap-3 md:gap-7">
+          <div className="lg:w-[42%] flex flex-row md:flex-col gap-3 md:gap-7">
             <div className="w-[188px] md:w-full">
               <img src={Keke} alt="" className="w-full h-full" />
             </div>
