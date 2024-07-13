@@ -6,6 +6,7 @@ import Technology from '../src/pages/Technology/Index';
 import Contact from '../src/pages/Contact/Index';
 import OurTeam from '../src/pages/OurTeam/Index';
 import News from '../src/pages/News/Index';
+import BecomeAgent from '../src/pages/BecomeAgent/Index';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/our-team" element={<OurTeam />} />
           <Route path="/news" element={<News />} />
+          <Route path="/become-an-agent" element={<BecomeAgent />} />
         </Routes>
       </BrowserRouter>
     </>
