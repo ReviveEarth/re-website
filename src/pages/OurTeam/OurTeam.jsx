@@ -7,40 +7,59 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { CiLinkedin } from 'react-icons/ci';
 import { SlSocialFacebook } from 'react-icons/sl';
+import Emeka from '../../assets/emeka.jpg';
+import Kenneth from '../../assets/kenneth.jpeg';
+import Chidera from '../../assets/chidera.jpg';
 
 const OurTeam = () => {
   const members = [
     {
-      image: User1,
-      name: 'Chukwuemeka',
-      position: 'Founder/CEO',
-      fb_link: 'https://www.facebook.com/',
-      ig_link: 'https://www.instagram.com/',
+      image: Emeka,
+      name: 'Chukwuemeka Eze',
+      position: 'CEO/Founder',
+      fb_link: '',
+      ig_link: '',
+      in_link: 'https://www.linkedin.com/in/chukwuemeka-eze-b1982016b/',
+    },
+    {
+      image: Kenneth,
+      name: 'Kenneth Nnadi',
+      position: 'Adviser',
+      fb_link: '',
+      ig_link: '',
       in_link: 'https://www.linkedin.com/',
     },
     {
-      image: User2,
-      name: 'Obinna',
-      position: 'Senior Program Manager',
-      fb_link: 'https://www.facebook.com/',
-      ig_link: 'https://www.instagram.com/',
-      in_link: 'https://www.linkedin.com/',
+      image: Chidera,
+      name: 'Chidera Udeh',
+      position: 'Technology Lead',
+      fb_link: '',
+      ig_link: '',
+      in_link: 'https://www.linkedin.com/in/emmanuel-chidera-b07926295',
     },
     {
-      image: User3,
-      name: 'Leo Arcand',
-      position: 'Co-Founder/CTO',
-      fb_link: 'https://www.facebook.com/',
-      ig_link: 'https://www.instagram.com/',
+      image: User4,
+      name: 'Alexandra Ozomma',
+      position: 'COO',
+      fb_link: '',
+      ig_link: '',
       in_link: 'https://www.linkedin.com/',
     },
     {
       image: User4,
-      name: 'Arinze',
-      position: 'Software Engineer',
-      fb_link: 'https://www.facebook.com/',
-      ig_link: 'https://www.instagram.com/',
-      in_link: 'https://www.linkedin.com/',
+      name: 'Prof. Ozoemena Ani',
+      position: 'Research Partner & Adviser',
+      fb_link: '',
+      ig_link: '',
+      in_link: 'https://www.linkedin.com/in/ozoemena-ani-64767b23/',
+    },
+    {
+      image: User4,
+      name: 'Uche Ogechukwu',
+      position: 'Partner Representative',
+      fb_link: '',
+      ig_link: '',
+      in_link: 'https://www.linkedin.com/in/uche-ogechukwu/',
     },
   ];
   return (
@@ -67,14 +86,16 @@ const OurTeam = () => {
                   <img
                     src={member.image}
                     alt=""
-                    className="w-[200px] mx-auto"
+                    className="w-[200px] rounded-full mx-auto"
                   />
                   <h3 className="px-4 pt-8 font-clashdisplay text-xl">
                     {member.name}
                   </h3>
-                  <p className="px-4 text-sm pt-2">{member.position}</p>
+                  <p className="px-4 text-sm pt-2 font-medium">
+                    {member.position}
+                  </p>
                   <div className="px-4 flex gap-4 pt-5 overflow-x-scroll">
-                    <a
+                    {/* <a
                       href={member.fb_link}
                       target="_blank"
                       className="bg-[#F3F8E9] rounded-full p-2"
@@ -87,14 +108,14 @@ const OurTeam = () => {
                       className="bg-[#F3F8E9] rounded-full p-2"
                     >
                       <FaInstagram size={18} />
-                    </a>
+                    </a> */}
 
                     <a
                       href={member.in_link}
                       target="_blank"
                       className="bg-[#F3F8E9] rounded-full p-2"
                     >
-                      <CiLinkedin size={20} />
+                      <CiLinkedin size={25} />
                     </a>
                   </div>
                 </div>
