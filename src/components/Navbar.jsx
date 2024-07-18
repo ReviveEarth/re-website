@@ -23,14 +23,14 @@ const Navbar = () => {
           <div className="px-[57px] py-[18px] w-full h-full rounded-[31px] flex items-center justify-between mx-auto bg-transparent text-white">
             <div className="flex gap-16">
               <NavLink
-                to="/"
+                to="/become-an-agent"
                 className={({ isActive }) =>
                   `hover:font-bold transition-all duration-300 ${
                     isActive ? 'font-bold' : ''
                   }`
                 }
               >
-                Home
+                Agent
               </NavLink>
               <NavLink
                 to="/technology"
@@ -54,14 +54,14 @@ const Navbar = () => {
             </div>
             <div className="flex gap-16">
               <NavLink
-                to="/news"
+                to="/our-team"
                 className={({ isActive }) =>
                   `hover:font-bold transition-all duration-300 ${
                     isActive ? 'font-bold' : ''
                   }`
                 }
               >
-                News
+                Our Team
               </NavLink>
               <NavLink
                 to="/contact"

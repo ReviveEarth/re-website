@@ -6,10 +6,12 @@ const Subscribe = () => {
     <>
       <section className="text-white py-28 lg:py-16  px-5 bg-[#101010]">
         <div className="flex flex-col  items-center text-center">
-          <p className="font-semibold text-[#83BC25]">Our Blog</p>
-          <h1 className="text-5xl font-medium font-clashdisplay pt-4">
+          <p className="font-semibold text-[#83BC25] text-5xl font-clashdisplay">
+            Our Blog
+          </p>
+          {/* <h1 className="text-5xl font-medium font-clashdisplay pt-4">
             Our Stories
-          </h1>
+          </h1> */}
           <p className="text-lg md:w-[680px] py-6">
             Subscribe to learn about new product features, the latest in
             technology, solutions, and updates.

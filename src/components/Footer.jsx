@@ -50,11 +50,11 @@ const Footer = () => {
               </h4>
               <ul className="">
                 <li className="pb-7">
-                  <Link to="/our-team">Our Team</Link>
+                  <Link to="/news">News</Link>
                 </li>
-                <li className="pb-7">
+                {/* <li className="pb-7">
                   <p>Our Stories</p>
-                </li>
+                </li> */}
                 <li className="">
                   <Link to="/contact">Contact Us</Link>
                 </li>
