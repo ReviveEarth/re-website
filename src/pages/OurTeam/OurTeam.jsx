@@ -1,7 +1,4 @@
 import React from 'react';
-import User1 from '../../assets/user1.png';
-import User2 from '../../assets/user2.png';
-import User3 from '../../assets/user3.png';
 import User4 from '../../assets/user4.png';
 import { FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
@@ -9,6 +6,7 @@ import { CiLinkedin } from 'react-icons/ci';
 import { SlSocialFacebook } from 'react-icons/sl';
 import Emeka from '../../assets/emeka.jpg';
 import Kenneth from '../../assets/kenneth.jpeg';
+import Uche from '../../assets/uche.jpeg';
 import Chidera from '../../assets/chidera.jpg';
 
 const OurTeam = () => {
@@ -21,14 +19,7 @@ const OurTeam = () => {
       ig_link: '',
       in_link: 'https://www.linkedin.com/in/chukwuemeka-eze-b1982016b/',
     },
-    {
-      image: Kenneth,
-      name: 'Kenneth Nnadi',
-      position: 'Adviser',
-      fb_link: '',
-      ig_link: '',
-      in_link: 'https://www.linkedin.com/',
-    },
+
     {
       image: Chidera,
       name: 'Chidera Udeh',
@@ -46,20 +37,28 @@ const OurTeam = () => {
       in_link: 'https://www.linkedin.com/',
     },
     {
+      image: Uche,
+      name: 'Uche Ogechukwu',
+      position: 'Partner Representative',
+      fb_link: '',
+      ig_link: '',
+      in_link: 'https://www.linkedin.com/in/uche-ogechukwu/',
+    },
+    {
+      image: Kenneth,
+      name: 'Kenneth Nnadi',
+      position: 'Adviser',
+      fb_link: '',
+      ig_link: '',
+      in_link: 'https://www.linkedin.com/',
+    },
+    {
       image: User4,
       name: 'Prof. Ozoemena Ani',
       position: 'Research Partner & Adviser',
       fb_link: '',
       ig_link: '',
       in_link: 'https://www.linkedin.com/in/ozoemena-ani-64767b23/',
-    },
-    {
-      image: User4,
-      name: 'Uche Ogechukwu',
-      position: 'Partner Representative',
-      fb_link: '',
-      ig_link: '',
-      in_link: 'https://www.linkedin.com/in/uche-ogechukwu/',
     },
   ];
   return (
