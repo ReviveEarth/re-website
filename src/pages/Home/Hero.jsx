@@ -25,14 +25,14 @@ const Hero = () => {
 
           <div className="font-light text-lg flex flex-col-reverse  gap-y-6 text-center md:flex-row gap-x-5 pt-14">
             <Link
-              to="/our-products"
+              to="/technology"
               className="border border-white w-[315px]  md:w-[228px] py-6"
             >
               Our Products
             </Link>
 
             <Link
-              to="/buy"
+              to="/contact"
               className="bg-[#0F0B0B] w-[315px]  md:w-[228px] py-6"
             >
               Buy Now

@@ -23,7 +23,7 @@ const Future = () => {
               greener, and more affordable commute.
             </p>
             <Link
-              to="/order-now"
+              to="/contact"
               className="mt-9 bg-black text-white w-[200px] py-3 text-center hidden md:block"
             >
               ORDER NOW
@@ -33,7 +33,7 @@ const Future = () => {
           <div className="flex flex-col">
             <img src={Workers} alt="RE" className="lg:-mt-16 " />
             <Link
-              to="/order-now"
+              to="/contact"
               className="mt-9 bg-black text-white w-[200px] py-3 text-center md:hidden"
             >
               ORDER NOW

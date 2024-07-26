@@ -1,6 +1,7 @@
 import React from 'react';
 import Tricyle from '../../assets/group.png';
 import Bolt from '../../assets/bolt.svg';
+import { Link } from 'react-router-dom';
 
 const Rugged = () => {
   return (
@@ -58,9 +59,12 @@ const Rugged = () => {
               </p>
             </div>
 
-            <button className="font-medium bg-black text-white py-3 w-[217px]">
+            <Link
+              to="/contact"
+              className="text-center font-medium bg-black text-white py-3 w-[217px]"
+            >
               ORDER NOW
-            </button>
+            </Link>
           </div>
         </div>
 

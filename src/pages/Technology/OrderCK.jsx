@@ -1,5 +1,6 @@
 import React from 'react';
 import Line from '../../assets/w_line.png';
+import { Link } from 'react-router-dom';
 
 const OrderCK = () => {
   return (
@@ -13,9 +14,12 @@ const OrderCK = () => {
             order conversion kits
           </h1>
 
-          <button className="font-medium bg-black text-white py-3 w-[217px]">
+          <Link
+            to="/contact"
+            className="text-center font-medium bg-black text-white py-3 w-[217px]"
+          >
             ORDER NOW
-          </button>
+          </Link>
         </div>
 
         <div className="mt-20 md:mt-32 text-white flex flex-col md:flex-row mx-16 md:mx-0 xl:mx-44 gap-5 md:gap-10 lg:gap-20 font-medium">
