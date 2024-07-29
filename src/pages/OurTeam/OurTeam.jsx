@@ -8,6 +8,8 @@ import Emeka from '../../assets/emeka.jpg';
 import Kenneth from '../../assets/kenneth.jpeg';
 import Uche from '../../assets/uche.jpeg';
 import Chidera from '../../assets/chidera.jpg';
+import Alexandra from '../../assets/alexandra.jpeg';
+import Prof from '../../assets/prof.jpg';
 
 const OurTeam = () => {
   const members = [
@@ -29,12 +31,12 @@ const OurTeam = () => {
       in_link: 'https://www.linkedin.com/in/emmanuel-chidera-b07926295',
     },
     {
-      image: User4,
+      image: Alexandra,
       name: 'Alexandra Ozomma',
       position: 'COO',
       fb_link: '',
       ig_link: '',
-      in_link: 'https://www.linkedin.com/',
+      in_link: 'https://www.linkedin.com/in/alexandra-ozomma-b98988b6/',
     },
     {
       image: Uche,
@@ -53,7 +55,7 @@ const OurTeam = () => {
       in_link: 'https://www.linkedin.com/',
     },
     {
-      image: User4,
+      image: Prof,
       name: 'Prof. Ozoemena Ani',
       position: 'Research Partner & Adviser',
       fb_link: '',
