@@ -33,14 +33,14 @@ const Index = () => {
     }
 
     const data = new FormData();
-    data.append('FirstName', messageBody.firstName);
-    data.append('LastName', messageBody.lastName);
+    data.append('Firstname', messageBody.firstName);
+    data.append('Lastname', messageBody.lastName);
     data.append('Email', messageBody.email);
     data.append('Phone', messageBody.phoneNumber);
     data.append('Message', messageBody.message);
 
     const sheet_url =
-      'https://script.google.com/macros/s/AKfycbwamzLPNGbwmzdkA0lrhGYO7Qa4TllvFUAgVFiyt0WAhrf6Y3Bpsc0HT3IYk4LsRVjy/exec';
+      'https://script.google.com/macros/s/AKfycbyrFXIEL-VdRsoEDsOkbz_4E0B3HmnClXENz81Hwtshpoph6nLRLmIcBxtepLv5iUK19w/exec';
 
     try {
       setSendMessageStatus(true);

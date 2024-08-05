@@ -64,15 +64,15 @@ const Index = () => {
     }
 
     const data = new FormData();
-    data.append('Subject', currentMailSubject);
-    data.append('FirstName', messageBody.firstName);
-    data.append('LastName', messageBody.lastName);
+    data.append('Category', currentMailSubject);
+    data.append('Firstname', messageBody.firstName);
+    data.append('Lastname', messageBody.lastName);
     data.append('Email', messageBody.email);
     data.append('Phone', messageBody.phoneNumber);
     data.append('Message', messageBody.message);
 
     const sheet_url =
-      'https://script.google.com/macros/s/AKfycbxo6bMJmlS3h-0TGNdx6omT4afOdoES9oZKyggbDnou6z5A7xePl4KO1ZLdWkR6b7mLpg/exec';
+      'https://script.google.com/macros/s/AKfycbzVlVDbQ_Ba_hgzW2TepkQbeRXwfIKb8GXd932l5NmeB-6hoWP7P6IV9IUlapS-s85-/exec';
 
     try {
       setSendMessageStatus(true);

@@ -39,7 +39,7 @@ const ContactUs = () => {
     data.append('Message', formData.message);
 
     const sheet_url =
-      'https://script.google.com/macros/s/AKfycbxthwIzvhgVz0BPEJmApFRHxAXiNWYK2VWzYFKWususB1DtnEoAGDLtoFuVFJXwL8Y14Q/exec';
+      'https://script.google.com/macros/s/AKfycbzvY7DGJX9zqQwlFbB-GXZF47C0ASax_TsJQCoF2ytw9wvjl8NniHf5KNQn0-BTuBWvjA/exec';
     try {
       setSendMessageStatus(true);
 
