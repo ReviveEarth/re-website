@@ -117,6 +117,17 @@ const Navbar = () => {
 
               <li className="py-7 ">
                 <NavLink
+                  to="/become-an-agent"
+                  className={({ isActive }) =>
+                    isActive ? 'font-bold text-xl' : ''
+                  }
+                >
+                  Agent
+                </NavLink>
+              </li>
+
+              <li className="py-7 ">
+                <NavLink
                   to="/technology"
                   className={({ isActive }) =>
                     isActive ? 'font-bold text-xl' : ''
