@@ -1,13 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { FaArrowRight, FaXTwitter } from 'react-icons/fa6';
-import { MdEmail } from 'react-icons/md';
-import { AiFillInstagram } from 'react-icons/ai';
-import { IoLogoWhatsapp } from 'react-icons/io';
-import { BsFillTelephoneFill } from 'react-icons/bs';
-import { FaFacebook, FaYoutube, FaLinkedin } from 'react-icons/fa';
+import React from "react";
+import { Link } from "react-router-dom";
+import { FaArrowRight, FaXTwitter } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { AiFillInstagram } from "react-icons/ai";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
 
-import Logo from '../assets/x.png';
+import Logo from "../assets/x.png";
 
 const Footer = () => {
   return (
@@ -81,24 +81,27 @@ const Footer = () => {
 
             <div className="flex flex-col font-clashdisplayVariable font-normal pt-14">
               <p>Follow RE On Social Media Or just get in touch:</p>
-              <div className="flex flex-row  space-x-6 pt-5 overflow-x-scroll">
+              <div className="flex flex-row space-x-6 pt-5 overflow-x-scroll">
                 <a
-                  href="#"
+                  href="https://wa.me/2348138695633"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white rounded-full p-1"
                 >
                   <IoLogoWhatsapp size={28} color="#83BC25" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/ReviveEarthLTD/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white rounded-full p-1 hidden md:block"
                 >
                   <FaFacebook size={28} color="#83BC25" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/reviveearthlimited/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white rounded-full p-1"
                 >
                   <AiFillInstagram size={28} color="#83BC25" />
@@ -106,34 +109,39 @@ const Footer = () => {
                 <a
                   href="#"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white rounded-full p-1"
                 >
                   <FaXTwitter size={28} color="#83BC25" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.youtube.com/channel/UCOGOah0H0cuX94eMMUNRktQ"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white rounded-full p-1"
                 >
                   <FaYoutube size={28} color="#83BC25" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/revive-earth/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white rounded-full p-1"
                 >
                   <FaLinkedin size={28} color="#83BC25" />
                 </a>
                 <a
-                  href="#"
+                  href="mailto:info@revive.earth"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white rounded-full p-1 hidden md:block"
                 >
                   <MdEmail size={28} color="#83BC25" />
                 </a>
                 <a
-                  href="#"
+                  href="tel:+2348138695633"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white rounded-full p-1 hidden md:block"
                 >
                   <BsFillTelephoneFill size={25} color="#83BC25" />
